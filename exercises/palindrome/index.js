@@ -12,7 +12,7 @@ function palindrome(str) {
 
   // let newStr = '';
   // for (let i = str.length - 1; i >= 0; i--) {
-  //   if (newStr += str[i]) {
+  //   if (newStr == str[i]) {
   //     return true;
   //   } else if (newStr !== str[i]) {
   //     return false;
@@ -20,11 +20,11 @@ function palindrome(str) {
   // }
 
   // My new Solution
-  for (let i = 0; i < str.length/2; i++) {
-    if (str[i] !== str[str.length - i - 1])
-    return false;
-  }
-    return true;
+  // for (let i = 0; i < str.length/2; i++) {
+  //   if (str[i] !== str[str.length - i - 1])
+  //   return false;
+  // }
+  //   return true;
 
   // Solution #1
   // const reversed = str.split('').reverse().join('');

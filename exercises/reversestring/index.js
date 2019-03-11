@@ -44,9 +44,9 @@ module.exports = reverse;
 
 // reduce() method executes a reducer function (that you provide) on each member of the array resulting in a single output value.
 // ES2015
-//   return str.split('').reduce((reversed, character) => {
-//     return character + reversed;
-//   }, '');
+  // return str.split('').reduce((reversed, character) => {
+  //   return character + reversed;
+  // }, '');
 //
 //   //ES6
 //   return str.split('').reduce((rev,char) => char + rev, '');
