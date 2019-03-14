@@ -16,10 +16,20 @@ function reverseInt(n) {
   // Math.sign(-190);
 
   // My Solution
-  const newNum = n.toString().split('').reverse().join('');
+  // const newNum = n.toString().split('').reverse().join('');
   // const negNum = Math.sign(newNum)
-  return parseInt(newNum);
+  // return parseInt(newNum);
 
+  // New solution
+  const newNum = n.toString().split('').reverse().join('');
+  return parseInt(newNum) * Math.sign(n);
+
+  // Stephen's solution
+  // const reversed = n.toString().split('').reverse().join('');
+  // if (n < 0) {
+  //   return parseInt(reversed) * - 1;
+  // }
+  // return parseInt(reversed) * Math.sign(n);
 }
 
 
